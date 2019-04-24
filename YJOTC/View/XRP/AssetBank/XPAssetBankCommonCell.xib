@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="XPAssetBankCommonCell">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-Bt-ZO5">
+                        <rect key="frame" x="12" y="7.5" width="361" height="91.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoF-7d-JIh">
+                                <rect key="frame" x="10" y="35.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJe-2I-J6J">
+                                <rect key="frame" x="309" y="35.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ablk_icon_triht.png" translatesAutoresizingMaskIntoConstraints="NO" id="oh3-uQ-7bq">
+                                <rect key="frame" x="344" y="40" width="7" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="lZi-FY-uWS"/>
+                                    <constraint firstAttribute="width" constant="7" id="rvR-Ui-uA6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eoF-7d-JIh" firstAttribute="leading" secondItem="3jK-Bt-ZO5" secondAttribute="leading" constant="10" id="2pM-Qu-FHy"/>
+                            <constraint firstItem="oh3-uQ-7bq" firstAttribute="centerY" secondItem="3jK-Bt-ZO5" secondAttribute="centerY" id="T4K-pk-OCO"/>
+                            <constraint firstItem="MJe-2I-J6J" firstAttribute="centerY" secondItem="3jK-Bt-ZO5" secondAttribute="centerY" id="fdF-sY-HZg"/>
+                            <constraint firstItem="eoF-7d-JIh" firstAttribute="centerY" secondItem="3jK-Bt-ZO5" secondAttribute="centerY" id="o6I-Nc-4Eo"/>
+                            <constraint firstAttribute="trailing" secondItem="MJe-2I-J6J" secondAttribute="trailing" constant="10" id="oSv-04-F7D"/>
+                            <constraint firstAttribute="trailing" secondItem="oh3-uQ-7bq" secondAttribute="trailing" constant="10" id="ymX-oK-eWv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="3jK-Bt-ZO5" secondAttribute="trailing" constant="12" id="19t-jI-WEo"/>
+                    <constraint firstItem="3jK-Bt-ZO5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Jmh-fp-L26"/>
+                    <constraint firstAttribute="bottom" secondItem="3jK-Bt-ZO5" secondAttribute="bottom" constant="7.5" id="ah5-QI-fNC"/>
+                    <constraint firstItem="3jK-Bt-ZO5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7.5" id="n6J-jD-cA0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bgView" destination="3jK-Bt-ZO5" id="2Mt-pD-azk"/>
+                <outlet property="icon" destination="oh3-uQ-7bq" id="b4g-we-XNF"/>
+                <outlet property="infoLabel" destination="MJe-2I-J6J" id="AjU-ly-gQK"/>
+                <outlet property="itemLabel" destination="eoF-7d-JIh" id="zSV-TT-Fs9"/>
+                <outlet property="leftMargin" destination="oSv-04-F7D" id="yc1-v1-Zjm"/>
+            </connections>
+            <point key="canvasLocation" x="189.59999999999999" y="183.05847076461771"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ablk_icon_triht.png" width="7" height="11"/>
+    </resources>
+</document>

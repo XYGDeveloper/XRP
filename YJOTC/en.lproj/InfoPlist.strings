@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  YJOTC
+
+  Created by 周勇 on 2017/12/22.
+  Copyright © 2017年 前海数交平台运营. All rights reserved.
+*/
+
+
+
+//这里的语言包内容是根据手机的的系统语言,与app里面的语言无关
+
+CFBundleDisplayName = "XRP Plus";
+NSPhotoLibraryAddUsageDescription = "App will save photo to your album";
+NSCameraUsageDescription = "App need your camera to scan or take photo";
+NSPhotoLibraryUsageDescription = "App need the photo in your album to scan or upload";
+

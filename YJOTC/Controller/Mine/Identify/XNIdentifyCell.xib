@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="XNIdentifyCell">
+            <rect key="frame" x="0.0" y="0.0" width="361" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="361" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BD9-tz-0Du">
+                        <rect key="frame" x="12" y="0.0" width="337" height="69.5"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zj_icon_down" translatesAutoresizingMaskIntoConstraints="NO" id="tXD-Zx-q0Y">
+                        <rect key="frame" x="332" y="32" width="7" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="7" id="duc-gG-hyw"/>
+                            <constraint firstAttribute="height" constant="6" id="rHt-y8-2CZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BD9-tz-0Du" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7eH-OP-h08"/>
+                    <constraint firstAttribute="bottom" secondItem="BD9-tz-0Du" secondAttribute="bottom" id="IWf-G8-sya"/>
+                    <constraint firstAttribute="trailing" secondItem="tXD-Zx-q0Y" secondAttribute="trailing" constant="22" id="d8K-dd-BYz"/>
+                    <constraint firstAttribute="trailing" secondItem="BD9-tz-0Du" secondAttribute="trailing" constant="12" id="w22-BU-KVn"/>
+                    <constraint firstItem="BD9-tz-0Du" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="yDW-mr-f2P"/>
+                    <constraint firstItem="tXD-Zx-q0Y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="zHv-KD-5Qs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="arrow" destination="tXD-Zx-q0Y" id="Eif-9y-Mut"/>
+                <outlet property="tf" destination="BD9-tz-0Du" id="tyk-j3-AYc"/>
+            </connections>
+            <point key="canvasLocation" x="54.5" y="67"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="zj_icon_down" width="16" height="16"/>
+    </resources>
+</document>

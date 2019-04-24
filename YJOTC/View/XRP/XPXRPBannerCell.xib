@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="XPXRPBannerCell">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WSC-yt-Sh2">
+                        <rect key="frame" x="12" y="10" width="330" height="71.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tocie_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="PEO-XI-A8w">
+                                <rect key="frame" x="10" y="28.5" width="16" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="16" id="4EA-Nn-Vn6"/>
+                                    <constraint firstAttribute="height" constant="15" id="do1-Iy-0nx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ablk_icon_triht.png" translatesAutoresizingMaskIntoConstraints="NO" id="coM-EN-7gp">
+                                <rect key="frame" x="313" y="30" width="7" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="JA5-lF-qXT"/>
+                                    <constraint firstAttribute="width" constant="7" id="fcc-1P-rUP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="coM-EN-7gp" secondAttribute="trailing" constant="10" id="KAU-tB-o8c"/>
+                            <constraint firstItem="coM-EN-7gp" firstAttribute="centerY" secondItem="WSC-yt-Sh2" secondAttribute="centerY" id="OlZ-N8-vcX"/>
+                            <constraint firstItem="PEO-XI-A8w" firstAttribute="centerY" secondItem="WSC-yt-Sh2" secondAttribute="centerY" id="dns-qr-Gdh"/>
+                            <constraint firstItem="PEO-XI-A8w" firstAttribute="leading" secondItem="WSC-yt-Sh2" secondAttribute="leading" constant="10" id="iPC-YJ-WlK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WSC-yt-Sh2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="3UV-ih-R8r"/>
+                    <constraint firstAttribute="bottom" secondItem="WSC-yt-Sh2" secondAttribute="bottom" constant="15" id="Xuf-3t-waH"/>
+                    <constraint firstAttribute="trailing" secondItem="WSC-yt-Sh2" secondAttribute="trailing" constant="12" id="fCH-2f-8Zc"/>
+                    <constraint firstItem="WSC-yt-Sh2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="xd8-Pj-ZVZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bgView" destination="WSC-yt-Sh2" id="Ydx-U8-pdb"/>
+                <outlet property="icon" destination="PEO-XI-A8w" id="Plx-pX-ncp"/>
+            </connections>
+            <point key="canvasLocation" x="93" y="112"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ablk_icon_triht.png" width="7" height="11"/>
+        <image name="tocie_icon.png" width="16" height="15"/>
+    </resources>
+</document>

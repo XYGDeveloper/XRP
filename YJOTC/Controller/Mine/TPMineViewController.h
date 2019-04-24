@@ -1,0 +1,13 @@
+//
+//  TPMineViewController.h
+//  YJOTC
+//
+//  Created by 周勇 on 2018/8/1.
+//  Copyright © 2018年 前海数交平台运营. All rights reserved.
+//
+
+#import "YJBaseViewController.h"
+
+@interface TPMineViewController : YJBaseViewController
+
+@end

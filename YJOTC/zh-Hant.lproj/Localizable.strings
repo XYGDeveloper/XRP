@@ -1,0 +1,1398 @@
+/* 
+  Localizable.strings
+  YJOTC
+
+  Created by 周勇 on 2017/12/22.
+  Copyright © 2017年 前海数交平台运营. All rights reserved.
+*/
+"net_alert_load_page" = "似乎與網絡斷開連接";
+"net_alert_load_refresh" = "刷新";
+"MJRefreshHeaderIdleText" = "下拉可以刷新";
+"MJRefreshHeaderPullingText" = "鬆開立即刷新";
+"MJRefreshHeaderRefreshingText" = "正在刷新數據中...";
+
+"MJRefreshAutoFooterIdleText" = "點擊或上拉加載更多";
+"MJRefreshAutoFooterRefreshingText" = "正在加載更多的數據...";
+"MJRefreshAutoFooterNoMoreDataText" = "已經全部加載完畢";
+
+"MJRefreshBackFooterIdleText" = "上拉可以加載更多";
+"MJRefreshBackFooterPullingText" = "鬆開立即加載更多";
+"MJRefreshBackFooterRefreshingText" = "正在加載更多的數據...";
+"MJRefreshBackFooterNoMoreDataText" = "已經全部加載完畢";
+
+"MJRefreshHeaderLastTimeText" = "最後更新：";
+"MJRefreshHeaderDateTodayText" = "今天";
+"MJRefreshHeaderNoneLastDateText" = "無記錄";
+
+"load" = "加載中...";
+"wailt" = "請耐心等待";
+"empty_msg" = "暫無數據";
+"empty_refre" = "刷新試試";
+
+"main" = "錢包";
+"news" = "資訊";
+"hangqing" = "行情";
+
+"account" = "我的";
+"discover" = "發現";
+"shop" = "商城";
+"xrp+" = "瑞波鉆";
+"index_main" = "首頁";
+
+"Dis_Circle" = "圈子";
+"Dis_Chats" = "聊天";
+"Dis_Friends" = "朋友";
+"Dis_GroupChat" = "聊天室";
+
+"Dis_PostVideo" = "發視頻";
+"Dis_Search" = "搜索";
+"Dis_Postpic" = "發圖文";
+"Dis_AddGroupChat" = "發起群聊";
+"Dis_AddFriend" = "添加好友";
+
+"Dis_AddAttention" = "+關注";
+"Dis_AttentionEd" = "已關注";
+"Dis_Follow" = "粉絲";
+"Dis_SaySomeThing" = "說點什麽吧~";
+"Dis_AllComments" = "全部評論";
+"Dis_Comments" = "評論";
+"Dis_VistsCount" = "訪問量";
+
+"Dis_Mine" = "我的";
+"Dis_Post" = "發布";
+"Dis_Delete" = "刪除";
+"Dis_ViewAllComment" = "查看所有評論>";
+"Dis_PersonalSpace" = "個人空間";
+"Dis_DeleteThisComment" = "刪除該評論";
+
+"Dis_NewFriend" = "新的朋友";
+"Dis_Agreed" = "已同意";
+"Dis_Agree" = "同意";
+"Dis_DeleteFriendTips" = "是否確認刪除該好友?";
+"Dis_ChooseContacts" = "選擇聯系人";
+"Dis_Done" = "完成";
+"Dis_GroupName" = "群聊名稱";
+"Dis_GroupAvatar" = "群頭像";
+"Dis_DeleteChatRecord" = "清空聊天記錄";
+"Dis_ViewProfile" = "查看資料";
+"Dis_DeleteAndLeave" = "刪除並退出";
+"Dis_DissolveTheGroup" = "解散本群";
+"Dis_LeaveGroup" = "退出後不會通知群聊中其他成員,且不會再接受此群聊消息";
+
+
+"Confirm" = "確定";
+
+"Cancel" = "取消";
+"Tips_Login" = "請先登錄";
+
+"Dis_PostTips" = "這一刻的想法";
+"Dis_PostDistrite" = "發布動態";
+"Dis_TakePhoto" = "拍照";
+"Dis_ChooseFromAlbum" = "從手機相冊選擇";
+"Dis_PostSuccess" = "發布成功";
+"Dis_RecordVideo" = "錄制視頻";
+
+
+//登錄注冊
+"LUserLogin" = "用戶登錄";
+"LUserRegister" = "用戶注冊";
+"LEnterUserName" = "請輸入用戶名";
+"LEnterVerificationCode" = "請輸入驗證碼";
+"LGetVerificationCode" = "獲取驗證碼";
+"LEnterPWD" = "請輸入登錄密碼";
+"LEnterPWDAgain" = "請再次輸入登錄密碼";
+"LEnterTransactionPWD" = "請輸入安全密碼";
+"LEnterTransactionPWDAgain" = "請再次輸入安全密碼";
+"LEnterEamil" = "請輸入郵箱(非必填)";
+"LEnterInvatationCode" = "請輸入邀請碼(必填)";
+"LRegister" = "注冊";
+"LLogin" = "登錄";
+"LUserName/email" = "用戶名/手機號/郵箱";
+"LPassword" = "密碼";
+"LForgetPWD" = "忘記密碼?";
+"LEnterPhoneNumber" = "請輸入您的手機號碼";
+"LEnterPhoneNumberOrEmail" = "請輸入您的郵箱或手機號碼";
+"LResend1" = "重新發送";
+"LCodeSendSuccess" = "驗證碼發送成功";
+"LRegisterSuccess" = "註冊成功";
+"LLoginSuccess" = "登錄成功";
+"LPayPWDNotSame" = "兩次輸入的安全密碼不壹致";
+"LLoginPWDNotSame" = "兩次輸入的登錄密碼不壹致";
+"LPWDLengthLessThan6" = "密碼長度最少為6位";
+"LAccoutLocked" = "帳號被鎖定，禁止登陸";
+
+"LUserNameError" = "用戶名或者密碼錯誤";
+"LLoginFail" = "登錄失敗";
+"LEmailError" = "郵箱格式不正確";
+"LUserNameExist" = "英文名已存在";
+"LPhoneError" = "手機號碼格式不正確";
+"LCodeError" = "手機驗證碼不正確";
+"LPhoneExist" = "手機號碼已存在";
+"LServersIsBusy" = "服務器繁忙，請稍後重試";
+
+//查找好友
+"EFindFriend" = "查找好友";
+"EUserName" = "輸入用戶名";
+"ESearchResult" = "搜索結果";
+"EFriendAdded" = "已添加";
+"EAddFriend" = "+添加";
+"ESayHello" = "妳好!";
+"EFriendRequestSendSuccess" = "好友申請發送成功";
+"EFriendRequestSendFail" = "好友申請發送失敗";
+"ECantFindTheUser" = "找不到該用戶";
+"EFindYourself" = "找到自己";
+
+"ENotJoinGroup" = "還沒有加入群組";
+"EDeleteMember" = "刪除成員";
+"EWelcomeToGroupChat" = "歡迎加入群聊~";
+"EToDeleteMember" = "確定要刪除選中的成員?";
+"EChatInfo" = "聊天信息";
+"EMyAlbum" = "我的相冊";
+"ENoFriendapplicationRecord" = "沒有好友申請記錄";
+"EPhoneNumber" = "手機號";
+"EReceiveRequest" = "收到好友申請!";
+
+"EInputNewMessage" = "輸入新消息";
+
+
+"Tip_LoginAtOtherDevice" = "您的賬號在別的地方登錄,請重新登錄!";
+"Tip_YouHaveNewMessage" = "您有新的消息，請點擊查看";
+
+
+"T_MomentAgo" = "剛剛";
+"T_MinsAgo" = "分鐘前";
+"T_HoursAgo" = "小時前";
+"T_DayAgo" = "天前";
+"T_WeeksAgo" = "星期前";
+
+
+"R_AgreeTip" = "我已經同意並閱讀《雲集OTC註冊協議》";
+"C_NoMoreThan140" = "最多輸入140個文字";
+"C_SearchHistory" = "歷史搜索";
+"C_Dynamic" = "動態";
+"C_NoSuchCOntent" = "沒有搜索到相關內容";
+"C_reply" = "回復";
+"C_NoDynamic" = "暂无动态";
+"C_Tip" = "温馨提示";
+"C_TipDetail" = "您将删除该资源信息,删除后不得恢复";
+"C_NoDynamic" = "暫無動態";
+"C_Tip" = "溫馨提示";
+"C_TipDetail" = "您將刪除該資源信息,刪除後不得恢復";
+"C_DeleteSuccess" = "刪除成功";
+"E_LocationTitle" = "位置信息";
+"E_LocationSend" = "發送";
+
+"R_PullDown" = "下拉可以刷新";
+"R_Loading" = "數據刷新中";
+"R_Release" = "松開立即刷新";
+"R_NoMoreData" = "沒有數據啦";
+
+"K_Scan" = "掃壹掃";
+"K_ScanTips" = "將二維碼放入框內,即可自動掃描";
+"k_Attention" = "關註";
+"R_nationality" = "國籍";
+"R_PhoneRegister" = "手機註冊";
+"R_EmailRegister" = "郵箱註冊";
+"R_NOCount?" = "沒有賬號?請註冊";
+"R_ChooseNa" = "請選擇國籍";
+"R_EnterEmail" = "請輸入電子郵箱";
+"R_HaveCount?" = "已有賬號?請登錄";
+"R_EMailOrPhone" = "郵箱或手機號碼";
+"R_NOCount?" = "沒有賬號?請註冊";
+"R_ChangeCoinCircle" = "切換幣圈";
+"R_Message" = "信息";
+"R_Popularity" = "人氣";
+"R_All" = "全部";
+"R_HotCoinCircle" = "熱門幣圈";
+"R_SWitch" = "切換";
+"R_FindPWD" = "找回密碼";
+"R_Submit" = "提交";
+"R_AgreeUserRegister" = "請同意用戶註冊協議";
+
+"Z_confirmPWD" = "確認密碼";
+"Z_msgCode" = "短信驗證碼";
+"Z_letterOrNum" = "支持字母,數字";
+"Z_letterORNumORsign" = "支持字母,數字";
+"Z_UserName" = "用戶名";
+"Z_RegisterTips" = "設置頭像方便好友認識妳哦";
+"Z_China" = "中國";
+"Z_Inviter" = "邀請人";
+"Z_TransactionPWD" = "安全密碼";
+"Z_TransactionPWD2" = "確認安全密碼";
+"Z_LoginPWDSameToPayPWd" = "登錄密碼不能和安全密碼壹樣";
+"Z_CodeExpired" = "手機驗證碼錯誤或已過期";
+"Z_NewLoginPWD" = "新登錄密碼";
+"Z_EnterUserName" = "請輸入用戶名";
+"Z_AccountNotExist" = "賬號不存在";
+"Z_ResetFail" = "密碼重置失敗";
+"Z_EnterNewLoginPWDTips" = "請輸入新登錄密碼";
+
+"Z_Wallet" = "錢包";
+"Z_BCB" = "首頁";
+"Z_UserNameAndPhone" = "用戶名或手機號";
+"k_ConfirmLoginout" = "確定要退出登錄嗎?";
+
+
+
+//OTC
+"OTC_main_buy" = "購買";
+"OTC_main_sell" = "出售";
+"OTC_main_postad" = "發佈廣告";
+"OTC_main_myad" = "我的廣告";
+"OTC_main_order" = "交易訂單";
+"OTC_main_payway" = "收款方式";
+"OTC_main_hide" = "隐藏";
+"OTC_qr_savefail" = "照片保存失敗";
+"OTC_qr_savesuccess" = "照片已經保存到系統相冊";
+"OTC_qr_savetophone" = "保存到手机";
+"OTC_profile_dealcount" = "交易次數";
+"OTC_profile_finishrate" = "完成率";
+"OTC_profile_avatime" = "平均放行 (分鐘)";
+"OTC_profile_identi" = "實名認證";
+"OTC_profile_phoneiden" = "手機認證";
+"OTC_buyDetail_buydetail" = "購買詳情";
+"OTC_buyDetail_chat" = "聊天";
+"OTC_buyDetail_canceldeal" = "取消交易";
+"OTC_buyDetail_topay" = "去支付";
+"OTC_buyDetail_paydelay" = "订单付款超时";
+"OTC_buy" = "買入";
+"OTC_sell" = "賣出";
+"OTC_copySuccess" = "復制成功";
+"OTC_copySuccess_copy" = "復制";
+"OTC_buyDetail_choosepayway" = "請選擇付款方式";
+"OTC_buyDetail_reachmaxcount" = "今日取消訂單次數已達上限";
+"OTC_buyDetail_orderhasbeencancel" = "訂單已取消";
+"OTC_buyDetail_maxcounttips" = "您的取消次數即將達到當日上線，確認取消您今日將無法買入";
+"OTC_buyDetail_notyetpay" = "我確認還沒有付款給對方";
+"OTC_left" = "剩";
+"OTC_minute" = "分";
+"OTC_second" = "秒";
+"OTC_ordersum" = "訂單金額";
+"OTC_sinleprice" = "單價";
+"OTC_ordernumber" = "訂單號";
+"OTC_payreference" = "付款參考號";
+"OTC_ordertime" = "訂單時間";
+"OTC_seller" = "賣家";
+"OTC_notPay" = "未付款";
+"OTC_buy_hasPaied" = "已完成付款";
+"OTC_buyconfirm_tips" = "我已知曉：需在付款成功后點擊下方按鈕。（惡意卡單將會被凍結。)";
+"OTC_buyconfirm_payconfirm" = "付款確認";
+"OTC_buyconfirm_paytimeisover" = "付款時間已經截止";
+"OTC_buyconfirm_plseasein" = "請在";
+"OTC_buyconfirm_payup" = "內向以上收款方式支付";
+"OTC_buyconfirm_paytips" = "請確認您已向買方付款。惡意點擊將直接凍結賬戶！";
+"OTC_toallow" = "待放行";
+"OTC_buylist_noorder" = "暫無訂單";
+"OTC_buylist_inputmoney" = "請輸入交易金額";
+"OTC_buylist_inputvolume" = "請輸入購買數量";
+"OTC_buylist_moneytoobig" = "您設置的金額大於對方設置的最大交易額";
+"OTC_buylist_volumesmall" = "購買數量不能小於0.0001";
+"OTC_buylist_codeerror" = "驗證碼錯誤";
+"OTC_post_next" = "下一步";
+"OTC_post_postad" = "發佈廣告";
+"OTC_post_priceshouldbigthan0" = "價格必須大於0";
+"OTC_post_volumeshouldbigthan0" = "數量必須大於0";
+"OTC_post_inputremark" = "請輸入資產留言";
+"OTC_post_pricesmall" = "價格不能小於跌停價";
+"OTC_post_pricebig" = "價格不能大於漲停價";
+"OTC_post_sumbig" = "最低交易額不能大於設定的交易額";
+"OTC_post_sumshouldbigthan0" = "最高交易額必須大於0";
+"OTC_post_postleft" = "發布剩余";
+"OTC_post_own" = "當前擁有";
+"OTC_post_upperprice" = "漲停價格";
+"OTC_post_lowerprice" = "跌停價格";
+"OTC_post_waitresult" = "验证结果";
+"OTC_post_postsuccess" = "發佈成功";
+"OTC_post_tips1" = "我們會在有點擊您的客戶第一時間向您反饋";
+"OTC_post_tips2" = "已提交申請，等待平台處理";
+"OTC_post_wait" = "等待處理";
+"OTC_post_postbuyad" = "發佈購買廣告";
+"OTC_post_postsellad" = "發佈出售廣告";
+"OTC_post_confirmthemesg" = "請確認以下信息";
+"OTC_post_haverad" = "已查閱並閱讀";
+"OTC_post_userpro" = "《用戶協議》";
+"OTC_post_postad" = "發布廣告";
+"OTC_post_back" = "返回";
+"OTC_post_setpayway" = "請先設置或開啟收款方式";
+"OTC_post_directpayfee" = "立即扣費";
+"OTC_post_setpayway1" = "設置付款方式";
+"OTC_post_setgetway" = "設置收款方式";
+"OTC_post_atleaset1payway" = "請至少設置並開啟壹種支付方式";
+"OTC_post_currency" = "幣種:";
+"OTC_post_limitprice" = "限價:";
+"OTC_post_volume" = "發布數量:";
+"OTC_post_sum" = "交易額:";
+"OTC_post_maxsum" = "最高交易額:";
+"OTC_post_minsum" = "最低交易額:";
+"OTC_post_feerate" = "手續費費率:";
+"OTC_post_fee" = "手續費:";
+"OTC_post_payway" = "扣款方式:";
+"OTC_post_realvolume" = "實際支付數量:";
+"OTC_post_ihaveknow" = "我已悉知";
+"OTC_post_posttips_1" = "發布後系統將會凍結您發布的";
+"OTC_post_posttips_2" = "，如未交易全部發布的數額，您可以在5小時後撤銷本廣告的發布,廣告手續費在撤銷後不予退回，剩余數額將會原路退回到您的帳護";
+"OTC_post_attention" = "注意";
+"OTC_post_pleaseacceptpro" = "請同意用戶協議";
+"OTC_order_norecord" = "暫無記錄";
+"OTC_order_orderdetail" = "訂單詳情";
+"OTC_order_paysuccess" = "付款成功";
+"OTC_order_afterminutetoappeal" = "分鐘后才能發起申訴";
+"OTC_order_otcwillgetfee" = "*OTC交易在買入與賣出時均會收取";
+"OTC_order__fee" = "的手續費";
+"OTC_order_nochoose" = "未選擇";
+"OTC_order_ordercancel" = "訂單已取消，無法查看訂單信息";
+"OTC_order_orderpaid" = "訂單已付款";
+"OTC_order_ordernotpay" = "訂單未付款";
+"OTC_order_orderdone" = "訂單已完成";
+"OTC_order_orderappleal" = "訂單申訴中";
+"OTC_order_topay" = "去付款";
+"OTC_order_cancelorder" = "取消訂單";
+"OTC_order_discharged" = "放行";
+"OTC_order_appleal" = "申诉";
+"OTC_order_seller" = "賣出方";
+"OTC_order_buyer" = "買入方";
+"OTC_order_currency" = "幣種";
+"OTC_order_dealvolume" = "交易數量";
+"OTC_fee" = "手續費";
+"OTC_order_realcost" = "實際扣除";
+"OTC_order_realreceive" = "實際到賬";
+
+"OTC_order_youneedtowait" = "您還需等待";
+"OTC_order_all" = "全部";
+"OTC_order_notpay" = "未付款";
+"OTC_order_todischarge" = "待放行";
+"OTC_order_cancel" = "已取消";
+"OTC_order_done" = "已完成";
+"OTC_order_applealing" = "申訴中";
+"OTC_order_paid" = "已付款";
+
+"OTC_appleal" = "申訴";
+"OTC_order_applealtips1" = "提請申訴後資產將會凍結，申訴專員將介入本次交易，直至申訴結束。惡意申訴屬於擾亂平臺正常運營的行為，情節嚴重將凍結帳戶。";
+"OTC_order_applealtips2" = "提請申訴後資產將會凍結，申訴專員將介入本次交易，直至申訴結束。惡意申訴屬於擾亂平臺正常運營的行為，情節嚴重將凍結帳戶。";
+"OTC_order_applealtype" = "申訴類型";
+"OTC_order_othernotdischarge" = "對方未放行";
+"OTC_order_othernotpay" = "對方未付款";
+"OTC_order_othercheat" = "對方有欺詐行為";
+"OTC_order_other" = "其他";
+"OTC_order_inputapplealreason" = "請填寫您的申訴理由(必填,不超過200字)";
+"OTC_order_confirmappleal" = "確認申訴";
+"OTC_order_reasontoolong" = "申訴理由不能超過200字";
+"OTC_order_commitsuccess" = "您的申訴已經提交,請耐心等待";
+"OTC_ad_warning" = "警告";
+"OTC_ad_canceltips1" = "撤銷廣告后廣告將會直接切換為完成狀態，已扣除的數量以及手續費將不再退還！且撤銷后不可逆轉！是否確定撤銷！";
+"OTC_ad_currentad" = "當前廣告";
+"OTC_ad_history" = "歷史廣告";
+"OTC_ad_addetail" = "廣告詳情";
+"OTC_ad_newmsg" = "新消息";
+"OTC_buy_cancel_tips" = "請勾選我確認沒有付款給對方";
+"OTC_view_havecashdeposit" = "商家已繳納1BTC保證金";
+"OTC_view_buyall" = "全部買入";
+"OTC_view_sellall" = "全部賣出";
+
+"OTC_view_needpayin15min" = "該訂單需要你在15分鐘內支付";
+"OTC_view_sellerremark" = "賣家備註：";
+"OTC_view_placeorder" = "下單";
+"OTC_view_needpayin15min1" = "該訂單需要你在";
+"OTC_view_needpayin15min2" = "分鐘內支付";
+"OTC_view_limtesum" = "限額";
+"OTC_view_maxsell" = "最大可賣";
+"OTC_view_maxbuy" = "最大可買";
+"OTC_view_dealrate" = "成交率";
+"OTC_view_dealing" = "交易中";
+"OTC_view_selfcancel" = "主動撤銷";
+"OTC_view_sellover" = "已售完";
+"OTC_view_adnumber" = "廣告號";
+"OTC_view_cancelAd" = "撤銷廣告";
+
+"OTC_view_exchangevolume" = "兌換數量";
+"OTC_view_sum" = "金額";
+"OTC_view_exvolume" = "已兌換數量";
+"OTC_view_exsum" = "已兌換金額";
+"OTC_view_leftvolume" = "剩餘數量";
+"OTC_view_leftsum" = "剩餘金額";
+"OTC_view_necessary" = "必填";
+"OTC_view_moneyremark" = "資產留言：";
+"OTC_view_limitelowsum" = "限定最低交易額";
+"OTC_view_limitehighsum" = "限定最高交易額";
+"OTC_buy_skr" = "收款人";
+"OTC_post_highsumlessthanlowsum" = "最高交易額不能小於最低交易額";
+
+"noRecord" = "暫無記錄";
+
+"OTC_pro_registertime" = "註冊時間";
+"OTC_pro_time" = "次";
+"OTC_pro_30" = "30日成單";
+"OTC_pro_sum" = "總成單";
+"OTC_pro_success" = "勝訴";
+"OTC_pro_avati" = "平均放行";
+"OTC_pro_email" = "郵箱認證";
+"OTC_pro_sellonline" = "在線出售";
+"OTC_pro_minute" = "分鐘";
+"OTC_pro_main" = "商戶個人頁";
+"OTC_post_maxshouldsmallthansum" = "最高交易额不能大于总交易额";
+"OTC_empty_tips" = "點擊重試";
+"OTC_payway_enteraccount" = "請輸入賬號";
+"oOTC_payway_choosepic" = "請選擇二維碼";
+"k_HBTradeJLViewController_count" = "數量";
+"Deal" = "成交";
+//pop view
+"k_popview_1" = "收款方式";
+"k_popview_2" = "新增支付方式";
+"k_popview_3" = "交易記錄";
+"k_popview_4" = "操作說明";
+"k_popview_list_cat4" = "充值種類：CNY";
+"k_popview_list_cat5" = "支行：公告的";
+"k_popview_list_cat6" = "刪除銀行卡";
+//添加微信银行卡
+"k_popview_list_uploadDes" = "上傳您的收款二維碼";
+
+"k_popview_list_countname" = "姓名";
+"k_popview_list_aliycounter" = "支付寶賬戶";
+"k_popview_list_counter" = "安全密碼";
+"k_popview_list_counter_placehoder" = "請輸入賬號";
+"k_popview_list_counter_pwd_placehoder" = "請輸入安全密碼";
+"k_popview_list_counter_emptyData" = "請添加收款方式";
+"k_popview_list_counter_confirmOrder" = "確認訂單";
+
+"k_popview_select_paymode" = "選擇收款方式";
+"k_popview_select_paybank" = "銀行卡";
+"k_popview_select_payalipay" = "支付寶";
+"k_popview_select_paywechat" = "微信";
+"k_popview_select_paywechat_mode" = "收款方式";
+"k_popview_select_paywechat_add" = "添加";
+"k_popview_select_paywechat_finish" = "完成";
+"k_popview_select_paywechat_addwechat" = "添加微信";
+"k_popview_select_paywechat_addalipay" = "添加支付寶";
+"k_popview_select_paywechat_editwechat" = "編輯微信";
+"k_popview_select_paywechat_editalipay" = "編輯支付寶";
+"k_popview_select_paywechat_rececode" = "收款码";
+"k_popview_select_paywechat_name_placehoder" = "請輸入姓名";
+"k_popview_select_paywechat_bankname_placehoder" = "請選擇銀行卡名稱";
+"k_popview_select_paywechat_kaihubankname_placehoder" = "請輸入開戶行地址";
+"k_popview_select_paywechat_kaihubankcarnumber_placehoder" = "請輸入銀行卡號";
+"k_popview_select_paywechat_2kaihubankcarnumber_placehoder" = "請再次輸入銀行卡號";
+"net_alert_load_message_cancel" = "取消";
+"net_alert_load_message_sure" = "確定";
+
+"limit_price" = "限價";
+"k_MyassetViewController_tableview_list_cell_right_jye" = "交易额";
+"k_YTsetViewController_bt1" = "修改";
+"k_MyassetDetailViewController_wt_mr" = "買入";
+"k_MyassetDetailViewController_wt_mc" = "賣出";
+"Price" = "價格";
+"OTC_view_selfcancel" = "主動撤銷";
+"OTC_view_sellover" = "已售完";
+"k_PAYViewController_typec" = "银行卡";
+"k_PAYViewController_typea" = "支付宝";
+"k_PAYViewController_typew" = "微信";
+
+
+//登录
+"K_Scan" = "掃壹掃";
+"K_ScanTips" = "將二維碼放入框內,即可自動掃描";
+"k_Attention" = "關註";
+"R_nationality" = "國籍";
+"R_PhoneRegister" = "手機註冊";
+"R_EmailRegister" = "郵箱註冊";
+"R_NOCount?" = "沒有賬號?請註冊";
+"R_ChooseNa" = "請選擇國籍";
+"R_EnterEmail" = "請輸入電子郵箱";
+"R_HaveCount?" = "已有賬號?請登錄";
+"R_EMailOrPhone" = "郵箱或手機號碼";
+"R_NOCount?" = "沒有賬號?請註冊";
+//新的登录页面
+"HBLoginTableViewController_hi" = "Hi,";
+"HBLoginTableViewController_des" = "登錄";
+"HBLoginTableViewController_phone_placehoder" = "手機號碼";
+"HBLoginTableViewController_password_placehoder" = "密碼";
+"HBLoginTableViewController_password_login" = "登錄";
+"HBLoginTableViewController_password_forgetpwd" = "忘記密碼";
+"HBLoginTableViewController_password_regisDes" = "還沒有賬號？";
+"HBLoginTableViewController_password_regis" = "註冊";
+//登陆-- 忘记密码
+"HBForgetPasswordTableViewController_forgetDes" = "忘記密碼";
+"HBForgetPasswordTableViewController_forgetPhone_placehoder" = "請輸入您的手機號碼";
+"HBForgetPasswordTableViewController_forgetEmail_placehoder" = "請輸入您的郵箱地址";
+"HBForgetPasswordTableViewController_valcode_placehoder" = "請輸入驗證碼";
+"HBForgetPasswordTableViewController_valcode_get" = "獲取驗證碼";
+"HBForgetPasswordTableViewController_findPwd" = "找回密碼";
+//重置密码
+"HBResetPasswordTableViewController_resetDes" = "重置密碼";
+"HBResetPasswordTableViewController_ori_placehoder" = "請輸入新的登錄密碼";
+"HBResetPasswordTableViewController_new_placehoder" = "請再次輸入新的登錄密碼";
+"HBResetPasswordTableViewController_commit" = "提交";
+//注册
+"HBRegisterTableViewController_registerdes" = "已有賬號？";
+"HBRegisterTableViewController_read" = "已閱讀并同意";
+"HBRegisterTableViewController_agree" = "《用戶協議》";
+
+"HBRegisterTableViewController_invitecode" = "邀請碼（選填）";
+"HBRegisterTableViewController_1tradepwd" = "安全密碼：6位純數字";
+"HBRegisterTableViewController_2tradepwd" = "確認密碼：6位純數字";
+"HBRegisterTableViewController_1loginpwd" = "登錄密碼：8~20位數字+字母";
+"HBRegisterTableViewController_2loginpwd" = "確認密碼：8~20位數字+字母";
+"HBRegisterTableViewController_valcode" = "請輸入驗證碼";
+"HBRegisterTableViewController_getvalcode" = "獲取驗證碼";
+"k_PayLoginPWDSame" = "登錄密碼和安全密碼不能壹樣";
+
+"HBRegisterTableViewController_defaultCountry" = "中國";
+"HBRegisterTableViewController_defaultdes" = "支持國際短信註冊";
+"Phone" = "手機";
+"eMail" = "郵箱";
+"HBRegisterTableViewController_encouraging" = "註冊送1000KOKcy,邀請也送";
+"LEnterEamil" = "請輸入郵箱";
+"LGetVerifyCodeFirst" = "請先獲取驗證碼";
+"LResend" = "後重發";
+
+//账户-- 安全设置
+"k_YTsetViewController_s1_title" = "安全設置";
+"k_YTsetViewController_s1" = "安全密碼";
+"k_YTsetViewController_s1_det" = "發佈廣告、兌換廣告資產、修改安全設置時輸入";
+"k_YTsetViewController_s2" = "綁定郵箱";
+"k_YTsetViewController_s2_det" = "用於登錄、提幣、修改安全設置時輸入";
+"k_YTsetViewController_s3" = "綁定手機";
+"k_YTsetViewController_s3_det" = "提現、修改密碼、安全設置時用以收取驗證短信";
+"k_YTsetViewController_s4" = "登錄密碼";
+"k_YTsetViewController_s4_det" = "用於登錄賬戶時輸入";
+
+"k_YTsetViewController_bt1" = "修改";
+"k_YTsetViewController_bt2" = "綁定";
+"k_YTsetViewController_bt3" = "綁定";
+"k_YTsetViewController_bt4" = "修改";
+
+//账户-- 安全设置-- 修改密码
+"k_ModifysetViewController_title" = "修改安全密碼";
+"k_ModifysetViewController_t1" = "請輸入原安全密碼";
+"k_ModifysetViewController_t2" = "請輸入新的安全密碼";
+"k_ModifysetViewController_t3" = "請確認新的安全密碼";
+"k_ModifysetViewController_b1" = "保存修改";
+"k_ModifysetViewController_emai" = "獲取郵箱驗證碼";
+
+
+//账户-- 安全设置 -- 修改邮箱
+"k_BindsetViewController_title" = "綁定郵箱";
+"k_BindsetViewController_t1" = "請輸入郵箱地址";
+"k_BindsetViewController_t2" = "請輸入驗證碼";
+"k_BindsetViewController_t3" = "綁定郵箱";
+"k_BindsetViewController_t4" = "完成";
+"k_BindsetViewController_b1" = "確定";
+//账户-- 安全设置 -- 修改登录密码
+"k_ModifyLoginsetViewController_title" = "修改登錄密碼";
+"k_ModifyLoginsetViewController_t1" = "請輸入原登錄密碼";
+"k_ModifyLoginViewController_t2" = "請輸入新的登錄密碼";
+"k_ModifyLoginViewController_t3" = "請確認新的登錄密碼";
+"k_ModifyLoginViewController_b1" = "保存修改";
+
+//账户-- 安全设置 -- 修改绑定手机
+"k_BindphonesetViewController_title" = "綁定手機";
+"k_BindphonesetViewController_t1" = "請輸入手机地址";
+"k_BindphoneViewController_t2" = "請輸入驗證碼";
+"k_BindphoneViewController_t3" = "綁定手机";
+"k_BindphoneViewController_b0" = "發送驗證碼";
+"k_BindphoneViewController_t4" = "完成";
+"k_BindphoneViewController_b1" = "確定";
+"k_Bined" = "已綁定";
+"k_Thecodetourphonereceive" = "请输入手机号000接收到的驗證碼";
+"k_pwdissame" = "新舊密碼不能一樣";
+
+
+//个人中心
+"x_MineinvitTitle" = "邀請您的好友加入瑞波鉆";
+"x_Mineinvitcode" = "您的邀請碼：";
+"x_Mineinvitdesc" = "更多好友，更多福利";
+"x_Mineemail" = "我的郵箱";
+"x_Minephone" = "我的手機";
+"x_Minelogincode" = "登錄密碼";
+"x_Minesecuritycode" = "安全密碼";
+"x_MineLang" = "語言";
+"x_Mineabout" = "關於";
+"x_Minesupport" = "支持";
+"x_Minecontractus" = "聯系我們";
+"x_MineInvite" = "邀請好友";
+"x_Minebooosplan" = "社區投票計劃";
+"x_Minesafesetting" = "安全設置";
+"x_Minesetting" = "設置";
+"x_MineJoin" = "參與";
+"x_Minesignout" = "登出";
+"x_modNick" = "修改昵称";
+
+
+
+//XRP+
+"x_xApplication" = "應用";
+"x_xassetbank" = "資產銀行";
+"x_xxrp" = "瑞波鉆";
+"x_xzhaunzhan" = "轉賬";
+"x_xsendXRP" = "贈送XRP";
+"x_xzhangben" = "賬本";
+"x_xguanwnag" = "官網";
+"x_xbps" = "白皮書";
+"x_xblock" = "區塊查詢";
+"x_xinvite" = "邀請好友";
+"x_MyFriend" = "我的好友";
+
+"x_xfold" = "收起";
+
+
+
+"g_jqqd" = "敬請期待";
+
+
+//錢包
+"W_Send" = "發送";
+"W_receive" = "接收";
+"W_ChooseCurrencyToSend" = "選擇發送幣種";
+"W_NoMoreData" = "沒有更多了";
+"W_album" = "相冊";
+"W_SendTipsComfirm" = "*請確認您正在發送到壹個USDT地址，發送到其他類型的地址將會造成資產永久丟失";
+"W_currentAvi" = "當前可用";
+"W_HighestSendVol" = "当日最多可發送";
+"W_Lowest" = "最低";
+"W_realReceive" = "實際到賬";
+"W_todaycantransferVol" = "今日剩余可转数量为";
+"W_addressBook" = "地址本";
+"W_addresstag" = "地址名稱";
+"W_enterorpasteaddress" = "請輸入/粘貼地址(必填)";
+"W_editaddress" = "編輯地址";
+"W_addaddress" = "添加地址";
+"W_walletaddress" = "錢包地址";
+"W_Save" = "保存";
+"W_suertodeletethisaddress" = "確認刪除此常用地址?";
+"W_confirmdelete" = "確認刪除";
+"W_plzenterwalletaddress" = "請輸入錢包地址";
+"W_plzenteraddresstag" = "請輸入地址名稱";
+"W_thiscurrencycanntsend" = "該幣種暫不支持發送";
+"W_thiscurrencycanntreceive" = "該幣種暫不支持接收";
+"W_LatestRecoord" = "最近記錄";
+"W_available" = "可用";
+"W_copyaddress" = "複製地址";
+"W_receiveaddress" = "接收地址";
+"W_CurrencyToReceive" = "接收幣種";
+"W_more" = "更多";
+"W_income" = "收入";
+"W_expend" = "支出";
+"W_Detail" = "詳情";
+"W_cancelled" = "已撤銷";
+"W_checking" = "審核中";
+"W_dealtime" = "交易時間";
+"W_My" = "我的";
+"W_Wallet" = "錢包";
+"W_NOAddress" = "暫無地址";
+"W_SendVol" = "發送數量";
+"W_plzenterremark" = "請輸入留言";
+"W_leaveword" = "留言";
+"W_Tag" = "標籤";
+"W_copyTag" = "複製標籤";
+"W_savetobooklist" = "保存到地址本";
+
+
+
+"M_MESVerify" = "短信驗證";
+"M_userOldPWD" = "使用舊密碼修改";
+"M_UserOldPWDTips" = "使用當前使用的密碼修改登錄密碼";
+"M_user" = "使用";
+"M_balance" = "資產概覽";
+"M_Price" = "實時價格";
+"M_InnvoteTitle" = "創新區";
+
+"M_addressTag" = "地址標籤";
+"M_enterxrptag" = "請輸入標籤(必填)";
+"M_enterxrptag_EOS" = "請輸入memo(必填)";
+
+"M_XRPSendtips" = "*請確認您正在發送到壹個瑞波幣（XRP）地址，並仔細檢查對方瑞波幣是否帶有標簽（tag），如帶標簽的地址未填寫時，可能導致瑞波幣無法正常到賬，發送到其他類型的地址也將會造成資產永久丟失！";
+"M_XRPSendtips_EOS" = "*請確認您正在發送到壹個EOS地址，並仔細檢查對方EOS是否帶有memo，如帶memo的地址未填寫時，可能導致EOS無法正常到賬，發送到其他類型的地址也將會造成資產永久丟失！";
+
+"M_XRPtag" = "標籤";
+"M_AssetList" = "資產列表";
+"M_XRPassset" = "XRP資產";
+
+
+//轉賬
+"ZZ_zzrecord" = "轉賬記錄";
+"W_Latest" = "最近";
+
+//社區
+"C_community_apply" = "申請加入社區投票計畫";
+"C_community_enter" = "進入我的社區主頁";
+"C_community_wailtReve" = "審核中";
+"C_community_apply_title" = "申請加入";
+"C_community_invitelabel" = "直屬上級賬號";
+"C_community_inviteplacehoder" = "請輸入妳直屬上級的手機號/郵箱";
+"C_community_inviteid" = "直屬上級ID";
+"C_community_inviteidplacehoder" = "請輸入妳直屬上級的ID";
+"C_community_search" = "搜索";
+"C_community_search_result" = "搜索結果";
+"C_community_search_accounter" = "賬號";
+"C_community_search_invitecode_" = "邀請碼";
+"C_community_search_bind" = "綁定";
+"C_community_search_jhaction" = "啟動";
+"C_community_search_votes" = "票";
+"C_community_search_noopen" = "未開放";
+"C_community_search_dovote" = "投票";
+"C_community_search_jihuo" = "啟動";
+"C_community_search_myinfo" = "我的信息";
+"C_community_search_myvotecount" = "選擇啟動票數";
+"C_community_search_qbzf" = "錢包支付";
+"C_community_search_mywallet" = "我的錢包";
+"C_community_search_detai01_nav" = "XRP +";
+"C_community_search_detai02_nav" = "增加票數";
+"C_community_search_detai03_nav" = "啟動社員";
+"C_community_search_detai04_nav" = "玩法";
+"C_community_search_detai04_jijiangkaifa" = "敬請期待";
+
+"C_community_search_bind_sure" = "確認";
+"C_community_search_bind_reset" = "撤銷";
+"C_community_search_bind_self" = "自己審核";
+//--------
+"C_community_search_cash_pay_title" = "更改扣款比例";
+"C_community_search_cash_pay_wailttopay" = "待付款";
+"C_community_search_cash_pay_wwalletPay" = "我的錢包扣款";
+"C_community_search_cash_pay_rbzPay" = "我的贈送扣款:";
+"C_community_search_cash_pay_descontent_pre" = "*本交易至少在我的錢包資產中扣除認購額的";
+"C_community_search_cash_pay_descontent_next" = "以上的XRP";
+"C_community_search_cash_pay_descontent" = "*本交易至少在我的錢包資產中扣除認購額的50%以上的XRP";
+"C_community_search_cash_pay_mingxi" = "扣款明細：";
+"C_community_search_cash_pay_mingxi_wallet" = "我的錢包：";
+"C_community_search_cash_pay_mingxi_wallet_01" = "我的錢包";
+
+"C_community_search_cash_pay_mingxi_rbz" = "我的贈送：";
+"C_community_search_cash_pay_mingxi_rbj" = "瑞波金：";
+"C_community_search_cash_pay_mingxi_rbj_01" = "瑞波金";
+"C_community_search_cash_pay_mingxi_scale" = "更改扣款比例";
+"C_community_search_cash_pay_mingxi_zuhe" = "我的錢包+我的贈送";
+"C_community_search_cash_pay_mingxi_input_left" = "輸入範圍在";
+"C_community_search_cash_pay_mingxi_input_right" = "之間";
+"C_community_search_cash_pay_mingxi_input_warn" = "請輸入正確的錢包扣款數量";
+
+
+
+//-------
+
+
+
+
+"C_community_search_current_jx" = "當前競選";
+"C_community_search_current_psrs" = "票數容積";
+"C_community_search_current_reveinfo" = "審核信息";
+"C_community_search_current_youinviter" = "您的邀約人";
+"C_community_search_current_wait_tosure" = "待確認";
+"C_community_search_current_wait_sured" = "已確認";
+"C_community_search_current_wait_reveed" = "待審核";
+"C_community_search_current_wait_detail" = "請確認您的上級以及社區投票情況";
+"C_community_search_current_bindScuess" = "綁定成功";
+//alert
+"C_community_search_alert_cancel" = "取消";
+"C_community_search_alert_sure" = "確定";
+"C_community_search_alert_reset_title" = "撤銷確認";
+"C_community_search_alert_reset_detail" = "撤銷後將無法恢復，將放棄本次審核，是否確認撤銷";
+"C_community_search_alert_sure_title" = "審核確認";
+"C_community_search_alert_sure_detail" = "確認審核後，您將綁定邀約人，並成功加入本計劃，是否確認審核";
+
+"C_community_search_alert_sure_min" = "當前啟動社員最低票數";
+
+"C_community_title" = "社區投票計劃";
+"C_community_mainPage" = "社區主頁";
+
+"C_community_button_option" = "一鍵領取今日獎勵";
+"C_community_button_option_one" = "領取今日獎勵";
+"C_community_button_option_no" = "基礎分紅已停止";
+
+"C_community_button_inter_title" = "進入我的社區投票主頁";
+"C_community_button_applyinter_title" = "申請加入社區投票計劃";
+"C_community_button_wailtrereew_title" = "審核中";
+//
+"C_community_reward_manager" = "累计管理獎勵";
+"C_community_reward_manager_totalrenun" = "總收益(XRP)";
+"C_community_reward_manager_communitylevel" = "社區等級";
+"C_community_reward_manager_todayrenun" = "今日收益(XRP)";
+"C_community_reward_manager_todayrenun_weekProfit" = "本週收益(XRP)";
+"C_community_reward_manager_getweeknune" = "領取本週收益";
+"C_community_reward_manager_getdaynune" = "領取今日收益";
+"C_community_reward_manager_piaoshu" = "票數容積";
+"C_community_reward_manager_yesIncres" = "昨日新增業績";
+"C_community_reward_xrp_sq" = "社區投票";
+"C_community_reward_xrp_vote_max" = "當前投票上限";
+"C_community_reward_xrp_vote_count" = "投票數量";
+"Dis_ChooseContacts_membercount" = "人";
+
+"C_basic_bouns_dayprofiet" = "日基礎分紅收益率";
+"C_basic_bouns_juorecor" = "激活記錄";
+"C_basic_bouns_collection" = "收";
+"C_basic_recorlist_nav01" = "全部";
+"C_basic_recorlist_nav02" = "已審核";
+"C_basic_recorlist_nav03" = "已撤銷";
+"C_basic_recorlist_zhishushequ" = "直屬社區邀請碼";
+"C_basic_recorlist_rbzpay" = "贈送+錢包組合支付";
+"C_basic_recorlist_rbjpay" = "瑞波金+錢包組合支付";
+"C_community_reward_level" = "累计平級獎勵";
+"C_community_reward_community" = "累计社區獎勵";
+"C_community_reward_recommend" = "累计推薦獎勵";
+"C_community_reward_mymember" = "我的社員";
+"C_community_reward_current_jingxuan" = "當前競選";
+"C_community_reward_current_piaoshuranshao" = "票數燃燒";
+
+"C_community_reward_current_piaoshu" = "票數燃燒";
+"C_community_reward_current_sdj" = "社區等級";
+"C_community_reward_current_xq" = "詳情";
+"C_community_reward_current_zt" = "增投";
+"C_community_reward_current_ytp" = "已投票";
+
+//頂部導航
+"C_community_nav_current_zjps" = "增加票數";
+"C_community_nav_current_jhsy" = "激活社員";
+"C_community_nav_current_wf" = "玩法";
+//啟動
+"C_community_jh_search_title" = "搜索社員";
+"C_community_jh_search_acconuter" = "準社員賬號";
+"C_community_jh_search_acconuter_placehoder" = "請輸入您準社員的手機號/郵箱";
+"C_community_jh_search_acconuter_id" = "準社員ID號";
+"C_community_jh_search_acconuter_id_placehoder" = "請輸入您準社員的ID號";
+//
+"C_community_jh_search_community_leader" = "幫助綁定激活投票";
+"C_community_jh_search_community_activit" = "激活社員";
+"C_community_jh_search_community_activit_jh" = "激活";
+"C_community_jh_search_community_bind_member_bind" = "新社員賬號";
+"C_community_jh_search_community_bind_member_bind_placehoder" = "請輸入您準備激活的社員手機號/郵箱";
+"C_community_jh_search_community_bind_member_bind_id" = "新社員ID號";
+"C_community_jh_search_community_bind_member_bind_id_placehder" = "請輸入您準備激活的社員ID號";
+"C_community_jh_search_community_bind_member" = "綁定社區";
+"C_community_jh_search_community_bind_xrp_plan_lock" = "您的賬戶已被鎖定";
+"C_community_jh_search_community_acc" = "直屬上級賬號";
+"C_community_jh_search_community_acc_placehoder" = "請輸入需要綁定直屬上級的賬號";
+"C_community_jh_search_community_idno" = "直屬上級ID號";
+"C_community_jh_search_community_idno_placehoder" = "請輸入需要綁定直屬上級的ID號";
+//
+"C_community_bouns_help" = "今日幸運贈送";
+"C_community_bouns_gailan" = "剩餘Online值概覽：";
+"C_community_bouns_onlined" = "已上線";
+"C_community_bouns_onlined" = "總天數";
+"C_community_bouns_tips" = "*啟動三名以上有效會員即可獲得30天的Online值";
+//空試圖
+"C_community_bouns_empty" = "暫無數據";
+"C_community_bouns_empty_try" = "請刷新試試";
+"C_community_bouns_empty_status" = "您當前狀態";
+"C_community_bouns_empty_lishi" = "臨時封存";
+"C_community_bouns_empty_fenqi" = "分期釋放";
+
+"C_community_bouns_one" = "今日一級贈送";
+"C_community_bouns_one_stop" = "一級分紅停止";
+
+"C_community_bouns_yestedayshouyi" = "社員昨日有效收益";
+"C_community_bouns_static_optioned" = "已領";
+"C_community_bouns_static_opti" = "已領";
+
+"C_community_bouns_static_sumoptioned" = "總可領";
+"C_community_bouns_static_sum_count" = "總額(XRP)";
+"C_community_bouns_static_sum_leveel" = "剩餘(XRP)";
+"C_community_bouns_static_sum_jilu" = "記錄";
+"C_community_bouns_static_sum_shifang" = "每日釋放";
+"C_community_bouns_static_sum_dayjichu" = "日基礎釋放收益率";
+"C_community_bouns_static_sum_yue" = "餘額";
+"C_community_bouns_static_sum_about" = "關於紅包";
+"C_community_bouns_static_sum_zengsong" = "贈送 XRP";
+
+"C_community_bouns_incre" = "今日增加贈送";
+"C_community_bouns_incre_stop" = "增加分紅停止";
+
+"C_community_bouns_currentshouyi" = "當前日收益(XRP)";
+
+
+"C_community_bouns_basic_incre" = "今日基礎贈送";
+"C_community_bouns_basic_incre_stop" = "基礎分紅停止";
+
+"C_community_bouns_zengtou" = "增投 >>";
+"C_community_bouns_basiccurrenti" = "當前日收益率";
+"C_community_bouns_basicshouyi" = "基礎分紅收益池概覽：";
+"C_community_bouns_basics_static_houyi" = "靜態收益池概覽：";
+"C_community_bouns_basics_homic_houyi" = "動已領";
+"C_community_reward_basic_option" = "基礎分紅已停止";
+//收銀台
+"C_community_cash_title" = "收銀台";
+"C_community_cash_taocan" = "套餐：";
+"C_community_cash_rongji" = "容積：";
+"C_community_cash_current" = "當前競選：";
+"C_community_cash_pay" = "需支付：";
+//收銀台彈出框
+"C_community_alert_title" = "確認申請";
+"C_community_alert_rengoutaocan" = "競選";
+"C_community_alert_jhuotaocan" = "激活投票";
+"C_community_alert_paymode" = "付款方式";
+"C_community_alert_wallert" = "我的錢包";
+"C_community_alert_taocan" = "套餐";
+
+
+
+
+"empty_msg" = "暫無數據";
+"Coming soon" = "敬請期待";
+"HBMemberViewController_set_nickname" = " 修改暱稱";
+
+"M_MSGVerify" = "短信驗證";
+"M_eMailVerify" = "郵箱驗證";
+"M_UserOldPWD" = "使用舊密碼修改";
+"k_ThecodetourEmailreceive" = "請輸入郵箱000收到的驗證碼";
+"U_tips" = "發現新版本";
+"U_checktourNetwork" = "請檢查當前網絡";
+"U_networkfailplzretry" = "網絡請求失敗,請重試";
+"Z_to" = "到";
+"Z_from" = "從";
+
+//行情
+"k_line_max" = "高";
+"k_line_min" = "低";
+"k_line_amout" = "24H量";
+"k_line_minh" = "分時";
+"k_line_minutes15" = "15分鐘";
+"k_line_hours1" = "1小時";
+"k_line_hours4" = "4小時";
+"k_line_days" = "1天";
+"k_line_More" = "更多";
+"k_line_index" = "指標";
+
+"k_line_1m" = "1分鐘";
+"k_line_5m" = "5分鐘";
+"k_line_30m" = "30分鐘";
+"k_line_1w" = "1周";
+"k_line_1mon" = "1月";
+
+//委托记录
+"k_MyassetDetailViewController_wt_mr" = "買入";
+"k_MyassetDetailViewController_wt_mc" = "賣出";
+"k_MyassetDetailViewController_wt_ing" = "委託中";
+"k_MyassetDetailViewController_wt_time" = "時間";
+"k_MyassetDetailViewController_wt_wtj" = "委託價";
+"k_MyassetDetailViewController_wt_wtl" = "委託量";
+"k_MyassetDetailViewController_wt_wtze" = "成交總額";
+"k_MyassetDetailViewController_wt_cjjj" = "成交均價";
+"k_MyassetDetailViewController_wt_cjl" = "成交量";
+//
+"k_MyassetDetailViewController_tableview_cell_label" = "委託類型";
+"k_MyassetDetailViewController_tableview_all" = "全部";
+"k_MyassetDetailViewController_tableview_pankou" = "盤口";
+
+"k_MyassetDetailViewController_tableview_cell_label0" = "委託價格";
+"k_MyassetDetailViewController_tableview_cell_label1" = "買入";
+"k_MyassetDetailViewController_tableview_cell_label2" = "轉入";
+"k_MyassetDetailViewController_tableview_cell_label3" = "轉出";
+
+
+//手动
+"k_MyassetDetailViewController_tableview_header_selectBtn" = "篩選";
+
+
+//未翻译
+"H_sellpan" = "賣盤";
+"H_buypan" = "買盤";
+"k_MyassetDetailViewController_tableview_header_label" = "當前委託";
+"H_realdeal" = "實際成交";
+"H_Record" = "歷史";
+"H_Recordlist" = "歷史記錄";
+"H_tradedui" = "交易對";
+"H_choosecurrency" = "選擇計價單位";
+"H_orderstatus" = "訂單狀態";
+"H_Reset" = "重置";
+"H_dealDetail" = "成交明細";
+"H_dealprice" = "成交價";
+
+
+//轉賬
+"Z_receiveAccount" = "接收方賬戶";
+"Z_enteraccount" = "請輸入接收方賬戶";
+"Z_receiveid" = "接收方ID";
+"Z_enterid" = "請輸入接收方ID";
+"Z_zzcurrency" = "出賬幣種";
+"Z_sendvol" = "發送數量";
+"Z_entervol" = "請輸入發送數量";
+"Z_memberechange" = "平台內互轉";
+"Z_avi" = "可用餘額";
+"Z_confirmzz" = "確認轉賬";
+"Z_duifangzhanghao" = "對方賬號";
+"Z_myasset" = "我的贈送";
+"Z_directpay" = "立即支付";
+"Z_zzsuccestitle" = "轉出成功";
+"Z_zzsuccesstatus" = "驗證成功";
+"Z_zzSuccesstips" = "您本次轉賬的000XRP已成功，對方將收到您本次轉賬的XRP";
+"Z_payway" = "付款方式";
+"Z_sendvolis0" = "發送數量不能為0";
+"Z_aviisnotenough" = "餘額不足";
+
+//资产银行
+"z_assettitle" = "資產銀行";
+"z_addtime" = "加入時間";
+"z_endtime" = "到賬時間";
+"z_productfeature" = "產品特點";
+"z_productdetail" = "產品詳情";
+"z_managetime" = "管理期";
+"z_ago" = "前";
+"z_zhuanru" = "轉入";
+"z_manageqixian" = "管理期限";
+"z_predictRate" = "预計年化";
+"z_lowrisk" = "較低風險";
+"z_day" = "天";
+"z_dinhcunyue" = "定存餘額";
+"z_predictreceive" = "預計到賬";
+"z_nick" = "暱稱";
+"z_zhuanruvol" = "存入數量";
+"z_currentyue" = "當前餘額";
+"z_enterzhaunzvol" = "請輸入數量";
+"z_minvol" = "*您本次最小存入额度为";
+"z_thisendtime" = "本期到賬時間";
+"z_AssetManage" = "資產管理";
+"z_Shoulizhong" = "受理中";
+"z_shengxizhong" = "生息中";
+"z_yishengxi" = "已生息";
+"z_yishixiao" = "已失效";
+"z_yearearningrate" = "年化收益率約";
+"z_yujishouyi" = "預計收益";
+"z_yujidaozhangshijian" = "預計到賬時間";
+"z_day" = "日";
+"z_shengxiing" = "生息中";
+"z_shengxied" = "已生息";
+"z_shengxicurrency" = "生息幣種";
+"z_aviisnotenough" = "可用餘額不足";
+"z_zhuanruvolshouldbigthan0" = "轉入數量必須大於0";
+"z_theminvolis" = "最小轉入額度為";
+"z_record" = "記錄";
+"z_zhuanrusuccess" = "轉入成功";
+"z_yujidaozhanshijian" = "預計收益到賬時間";
+"z_result" = "驗證結果";
+
+//划转
+"hz_plzEnterVol" = "請輸入劃轉數量";
+"hz_targetaccount" = "目標賬戶";
+"hz_hauzhuanvol" = "劃轉數量";
+"hz_XRPhuazhuantitle" = "贈送劃轉";
+"hz_volcantbe0" = "劃轉數量不能為0";
+"hz_volcantbigthanavi" = "劃轉數量不能大於可用餘額";
+"hz_toaccount" = "目標賬戶";
+"hz_mywallet" = "我的錢包";
+"hz_mywallet1" = "GAC兑换";
+"hz_mywallet2" = "GAC內購";
+"hz_confirmhz" = "確認劃轉";
+"hz_book_wallets" = "地址標簽";
+"hz_xrp_detail" = "XRP +明細";
+"hz_hztomywallet" = "劃轉至錢包賬戶";
+"hz_name" = "名稱";
+"hz_intro" = "簡介";
+"hz_zhaunchusuccess" = "轉出成功";
+"hz_huazhuansucceetips" = "您本次劃轉的000XRP已成功，您將在“我的錢包”中收到本次劃轉的XRP";
+"hz_detail" = "明細";
+"hz_myassetavi" = "我的贈送剩餘可劃轉餘額";
+"hz_myxrpaccount" = "我的錢包賬戶";
+"hz_copyscuess" = "复制成功";
+
+
+
+
+
+//来自华币的行情
+
+//交易
+"k_TradeViewController_title" = "交易";
+"k_TradeViewController_seg01" = "買入";
+"k_TradeViewController_seg02" = "賣出";
+"k_TradeViewController_seg03" = "撤單";
+"k_TradeViewController_seg04" = "歷史記錄";
+"k_YTBuyAndSellDetailTableViewController_total_prouct" = "總量:";
+"k_YTBuyAndSellDetailTableViewController_integral_amount" = "可用量:";
+"k_YTBuyAndSellDetailTableViewController_integral_freezing" = "凍結量:";
+"k_YTBuyAndSellDetailTableViewController_latest_deal" = "最新成交";
+"Insufficient balance" = "餘額不足";
+
+//错误提示信息
+"k_YTBuyAndSellDetailTableViewController_buyPriceCannotBeEmpty" = "買入價格不能為空";
+"k_YTBuyAndSellDetailTableViewController_sellPriceCannotBeEmpty" = "賣出價格不能為空";
+"k_YTBuyAndSellDetailTableViewController_TheNumberOfBuyingCannotBeEmpty" = "買入數量不能為空";
+"k_YTBuyAndSellDetailTableViewController_TheNumberOfSellingCannotBeEmpty" = "賣出數量不能為空";
+"k_YTBuyAndSellDetailTableViewController_TransactionCannotBeEmpty" = "交易密碼不能為空";
+
+
+"sell" = "賣";
+"buy" = "買";
+"sell_2" = "賣出";
+"buy_2" = "買入";
+"limit_price" = "限價 ";
+"market_price" = "市價 ";
+
+"Buy_price" = "買入價";
+"Sell_price" = "賣出價";
+"Price" = "價格";
+"Entrust" = "委託量";
+"Number" = "數量";
+"Trade_code" = "交易密碼";
+"Buy_immediately" = "立即買入";
+"Sell_immediately" = "立即賣出";
+
+"Time" = "時間";
+"Type" = "方向";
+"Trade_price" = "成交價格";
+"Trade_volume" = "成交量";
+"Total" = "總計";
+"Deal" = "成交";
+
+//K线图
+"Intro" = "簡介";
+"Issue date" = "發行時間";
+"Total circulation" = "發行總量";
+"Total turnover" = "流通總量";
+"Website" = "官網";
+"Raise price" = "眾籌價格";
+"White paper" = "白皮書";
+"Block query" = "區塊查詢";
+
+"Entrustment_type" = "委託類型：";
+"Entrust_price" = "委託價格：";
+"Quantity_entrusted" = "委託數量：";
+
+"k_MyassetViewController_tableview_list_cell_middle_avali" = "可用";
+"History" = "歷史";
+
+
+
+
+"k_popview_input_name" = "姓名";
+"k_popview_input_bank" = "開戶銀行";
+"k_popview_input_branchbank" = "開戶支行";
+"k_popview_input_branchbank_carnumber" = "銀行卡號";
+"k_popview_input_branchbank_confirm__concarnumber" = "確認卡號";
+"k_popview_select_paywechat_accounter_placehoder" = "請輸入賬號";
+"k_popview_select_paywechat_pwd_placehoder" = "請輸入安全密碼";
+"k_popview_select_paywechat_accounter_placehoder" = "請輸入賬號";
+"k_popview_select_paywechat_pwd_placehoder" = "請輸入安全密碼";
+"k_popview_select_paywechat_edit_action" = "編輯";
+"k_popview_select_paywechat_edit_unbind" = "解除綁定";
+"k_popview_select_paywechat_edit_cancel" = "取消";
+"k_popview_select_paywechat_edit_sure" = "确定";
+"k_popview_select_paywechat_edit_scuess" = "操作成功";
+"k_popview_select_paywechat_accounter" = "微信賬戶";
+"k_popview_select_paywechat_accounter01" = "賬戶";
+"k_popview_select_paywechat_rece_accoun" = "收款賬戶";
+"k_popview_select_paywechat_add_bank" = "添加銀行卡";
+"k_popview_select_paywechat_edit_bank" = "編輯銀行卡";
+"k_popview_select_paywechat_pop_select" = "请选择银行";
+"k_popview_select_paywechat_address_select" = "选择地址";
+"k_popview_select_paywechat_confirm_notsame" = "兩次輸入的銀行卡號不壹致";
+
+
+
+"Trade_Done" = "已成交";
+"Part_Done" = "部分成交";
+"Pending_order" = "掛單";
+"Trade_price2" = "成交價";
+"ConsumptionOfCard" = "點卡消耗";
+"Trade_Details" = "交易明細";
+"Canceled" = "已撤單";
+
+
+
+//zy  0107
+"ZB_join" = "加入";
+"ZB_assetBank" = "資產銀行";
+"ZB_NewRrcord" = "最新記錄";
+"ZB_about" = "約";
+
+//zy 0109
+"ZB_choosecurrency" = "請選擇存入幣種";
+"A_bindphone" = "綁定手機";
+"A_changephone" = "更換手機";
+"A_bindemail" = "綁定郵箱";
+"A_changeemail" = "更換郵箱";
+"A_plzbindphonefirst" = "請先進行手機號綁定";
+"A_plzenterphonenumber" = "請輸入手機號碼";
+"A_changebindemail" = "更改綁定郵箱";
+"A_changebindphone" = "更改綁定手機";
+"A_plzenteroriginalemail" = "請輸入原郵箱";
+"A_plzenteroriginalphone" = "請輸入原手機號";
+"A_plzenteroriginalemailcode" = "請輸入郵箱驗證碼";
+"A_plzenteroriginalphonecodel" = "請輸入原手機號驗證碼";
+"A_accountsecurity" = "賬戶安全";
+"A_securitysetting" = "安全設置";
+"A_plzenternewemail" = "請輸入新郵箱";
+"A_plzenternewphone" = "請輸入新手機";
+"A_plzverifynewemail" = "請驗證新的郵箱";
+"A_plzverifynewphone" = "請驗證新的手機";
+"A_zhentou" = "增投";
+
+//0110
+"A_boss_rbj" = "瑞波金";
+"A_boss_nextLevel" = "下一等級";
+"A_boss_xrpshequgaunlidenjiTitle" = "社區管理等級";
+"A_boss_confirm" = "確認";
+
+
+//實名認證
+"s_shimingrenzheng" = "實名認證";
+"s_male" = "男";
+"s_female" = "女";
+"s_idcard" = "身份證";
+"s_passport" = "護照";
+"s_drivinglicence" = "駕駛證";
+"s_china" = "中國";
+"s_cardnumber" = "證件號碼";
+"s_hanzu" = "漢族";
+"s_phont1" = "證件正面照片";
+"s_phono2" = "證件反面照片";
+"s_photo3" = "本人手持證件照";
+"s_plzchoosenationorarea" = "請選擇國家或地區";
+"s_plzchoosecardtype" = "請選擇證件類型";
+"s_plzchooseyourname" = "請輸入姓名";
+"s_plzchoosecardnumber" = "請填寫證件號碼";
+"s_plzchoosesex" = "請選擇性別";
+"s_plzchoosenation" = "請選擇民族";
+"s_plzuploadphoto1" = "請上傳證件正面照片";
+"s_plzuploadphoto2" = "請上傳證件反面照片";
+"s_plzuploadphoto3" = "請上傳本人手持證件照";
+"s_v_tips1" = "臺灣用戶可提供";
+"s_v_tips2" = "臺灣居民來往大陸通行證(簡稱臺胞證,只提交基本身份資訊頁即可)";
+"s_v_tips3" = "海外用戶可提供";
+"s_v_tips4" = "護照(上傳時提交基本身份資訊+入境蓋章頁)";
+"s_v_tips5" = "港澳用戶可提供";
+"s_v_tips6" = "港澳居民來往內地通行證(只提交基本身份資訊頁即可,紙質通行證或塑膠卡兩種)";
+"s_nationandarea" = "選擇國家或地區";
+"s_cardtype" = "證件類型";
+"s_realname" = "真實姓名";
+"s_sex" = "性別";
+"s_nation" = "民族";
+"s_photosize" = "證件照片(請選擇小於2M圖片)";
+"s_plzFinishsmrz" = "請先完成實名認證";
+
+
+//老闆計劃+實名認證 01/11
+"s_checker" = "審核人";
+"s_votesofcheck" = "審核投票數";
+"s_Check" = "審核";
+"s_checkbyself" = "自己審核";
+"s_Innovate" = "創新區";
+"s_shimrenzhengtips" = "恭喜您已通過實名認證";
+"s_yourinfomation" = "您的信息";
+"s_typeofcard" = "證件類型";
+"s_authtime" = "認證時間";
+"s_NOAuth" = "未認證";
+"s_nopass" = "未通過";
+"s_checked" = "已認證";
+"s_submitsuccesssplzwait" = "提交成功,請耐心等待審核";
+"s_plzfinishauth" = "請先完成實名認證";
+"s_plzwaitcheck" = "請耐心等待實名認證審核";
+
+//0112
+"s0112_OTCConfirmTips" = "請勾選上方我已知曉按鈕";
+"s0112_OTCPostAction" = "發布後系統將會凍結您發布的000XRP，5小時內撤銷本廣告，廣告手續費不予退回，剩余數額將會原路退回到您的賬戶。";
+"s0112_OTCCancelTips" = "撤銷廣告後廣告將會直接切換為完成狀態，已扣除的數量及手續費將不再退還（廣告發布後5小時內撤銷將收取1‰手續費，超過5小時不收取手續費）。且撤銷後不可逆轉，是否確定撤銷？";
+"s_0112_myxrp" = "我的XRP +";
+
+//0114
+"S0114_hismembers" = "TA的社員";
+"S0114_CurrentVotes" = "當前投票數";
+
+
+"S0114_Youneed" = "您需要";
+"S0114_or" = "或";
+"S0114_sorry" = "抱歉,您尚未登錄";
+
+"s_sell_lower" = "賣出";
+"s_buy_uppper" = "買入";
+//0115
+"s0115_otcFeeTips" = "*OTC交易在買入與賣出時均會收取000%的手續費.";
+"s0115_complaintafter1minstips" = "付款成功000分鐘后才能發起申訴.";
+"s0115_needyoutopayin1mins" = "該訂單需要你在000分鐘內支付.";
+"s0115_plzpayin0min" = "請在000內向以上收款方式支付.";
+
+//Certified
+"s0115_mailauth" = "郵箱認證";
+"s0115_phoneauth" = "手機認證";
+"s0115_idauth" = "實名認證";
+"s0115_nameoptioinal" = "地址名稱(選填)";
+"s0115_xrpreceiveTips" = "向本平台充幣時，務必將標籤正確填寫，如果標籤填寫錯誤，您充值所有的XRP都將無法到賬！本平台不承諾為您找回因標籤填寫錯誤導致丟失的XRP.";
+"s0115_noticeTitle" = "公告列表";
+
+//0117
+"s0117_OTCBankCardTips" = "*目前只支持借記卡，請勿添加信用卡等其他類型銀行卡!!!";
+"s0017_OTCBuyOrderTips" = "*該用戶僅支持以下支付方式，請仔細核對後再行下單!";
+
+//0118
+"s0118_OTCSendMIN" = "最小發送數量為";
+"s0118_sendXRPGToMember" = "轉賬給社員";
+
+//0121
+"U_updataTips" = "發現新版本";
+"U_update" = "更新";
+"OTC_remarks_length" = "留言最長120個字";
+//0122
+"s0122_tobecomeleader" = "申請成為社區長";
+"s0122_tobecomeleaderLimit" = "社區等級達到V2以上";
+//0127
+"s0127_namerequired" = "地址名稱(必填)";
+//0213 
+"s0213_activitytime" = "激活時間";
+"s0213_yesterdayvote" = "昨日票數";
+///0218
+"s0218_zhongdianpeiyang" = "重點培養";
+"s0218_initialvote" = "初始投票";
+"s0218_curreentvote" = "當前投票";
+"s0218_teamvote" = "團隊投票";
+
+//0219
+"s0219_currenthuzhuanfee" = "*當前互轉手續費費率";
+"s0219_kouchu" = "燃燒";
+"s0219_redpacket" = "紅包";
+"s0219_toupiaojihjua" = "投票計劃";
+//0221
+"s0221_myzengsong" = "我的贈送";
+"s0221_zengsong" = "贈送";
+//0227
+"W_copyEOSTag" = "複製memo";
+"s0115_xrpreceiveTips_EOS" = "向本平台充幣時，務必將memo正確填寫，如果momo填寫錯誤，您充值所有的EOS都將無法到賬！本平台不承諾為您找回因標籤填寫錯誤導致丟失的EOS.";
+//0301
+"s_0301_kfly" = "客服留言";
+//创新社区
+"XPInnovationHomeViewController_title" = "創新區";
+"XPInnovationHomeViewController_left" = "創新區剩餘XRP：";
+"XPInnovationHomeViewController_rate" = "XRP獎勵配比：";
+"XPInnovationHomeViewController_recorder" = "創新區XRP記錄";
+"XPInnovationHomeViewController_freeze" = "GAC凍結：";
+"XPInnovationHomeViewController_exchange" = "兌換GAC";
+"XPInnovationHomeViewController_notice" = "*工作日9点~晚9点可兑换";
+"XPInnovationHomeViewController_scan" = "查看";
+"XPInnovationHomeViewController_change" = "更改";
+"XPInnovacationExchangeViewController_title" = "兌換記錄";
+"XPInnovacationExchangeViewController_chuzhang" = "出賬幣種";
+"XPInnovacationExchangeViewController_innovacation" = "創新區XRP";
+"XPInnovacationExchangeViewController_left" = "可用餘額：";
+"XPInnovacationExchangeViewController_yesPrice" = "今日兌換價格";
+"XPInnovacationExchangeViewController_yuji" = "預計兌換：";
+"XPInnovacationExchangeViewController_ruzhang" = "入賬幣種";
+"XPInnovacationExchangeViewController_jieshoucount" = "接收數量";
+"XPInnovacationExchangeViewController_fasongucount" = "發送數量";
+"XPInnovacationExchangeViewController_fasongucount_placehoder" = "请输入發送數量";
+"XPInnovacationExchangeViewController_submit" = "提交";
+"THScrollChooseView_cancel" = "取消";
+"THScrollChooseView_title" = "更改XRP奖励配比";
+"THScrollChooseView_sure" = "確定";
+"XPFreezeListViewController_title" = "GAC凍結";
+"XPFreezeListViewController_left" = "總凍結(GAC)";
+"XPFreezeListViewController_middle" = "當前日收益率";
+"XPFreezeListViewController_right" = "今日解凍(GAC)";
+"XPFreezeListViewController_dayFreeze" = "每日解凍";
+"XPFreezeListViewController_dayrate" = "日每日解凍收益率：";
+"XPFreezeListViewController_freezed" = "凍結：";
+"XPFreezeListViewController_exchangefreezed" = "兌換凍結GAC";
+"XPFreezeListViewController_exchangerate" = "兌換比例：";
+"XPFreezeListViewController_release" = "消耗：";
+"XPFreezeListViewController_gac" = "贈送凍結GAC";
+"XPInnovacationExchangeViewController_title1" = "創新區XRP記錄";
+"XPInnovacationExchangeViewController_addtime" = "發起時間：";
+"XPInnovacationExchangeViewController_finish" = "完成時間：";
+"XPInnovacationExchangeViewController_shouxu" = "手續費：";
+"XPInnovacationExchangeViewController_shiji" = "實際兑换：";
+"XPInnovacationExchangeViewController_guzhi" = "估值：";
+"XPInnovacationExchangeViewController_notes" = "注：實際兌換數量以前一天大盤成交均價為準";
+"XPInnovacationExchangeViewController_morethan" = "超过可用餘额";
+"XPInnovacationExchangeViewController_types" = "類型：";
+"XPInternalPurchaseViewController_title" = "GAC內部認購";
+"XPInternalPurchaseViewController_title1" = "內購GAC";
+"XPInternalPurchaseViewController_recorder" = "認購記錄";
+"XPInternalPurchaseViewController_inner_price" = "內部認購價：";
+"XPInternalPurchaseViewController_inner_total" = "總額度：";
+"XPInternalPurchaseViewController_inner_level" = "剩餘额度：";
+"XPInternalPurchaseViewController_inner_has" = "已使用";
+"XPInternalPurchaseViewController_innerrecorder" = "GAC内購記錄";
